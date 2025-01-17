@@ -2,14 +2,26 @@
   "name": "football-database",
   "version": "1.0.0",
   "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
   "dependencies": {
-    "@/components/ui": "*",
+    "next": "^14.0.0",
+    "@radix-ui/react-alert-dialog": "^1.0.5",
+    "@radix-ui/react-slot": "^1.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-dnd": "^16.0.1",
     "react-dnd-html5-backend": "^16.0.1",
     "recharts": "^2.12.0",
     "lucide-react": "^0.263.1",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "tailwind-merge": "^2.2.0",
+    "tailwindcss": "^3.4.0",
+    "tailwindcss-animate": "^1.0.7"
   }
 }
